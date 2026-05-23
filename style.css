@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Gobold';
+    src: url('../fonts/Gobold Regular.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KgPerfectPenmanship';
+    src: url('../fonts/KgPerfectPenmanship.otf') format('opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #d89b787c;
     padding-top: 10em;
@@ -17,11 +31,12 @@ header {
 .logo {
     height: 150px;
     width: 150px;
-    align-items:end;
 }
 
-nav {
-
+nav a{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'KgPerfectPenmanship';
 }
 
 ul {
@@ -33,8 +48,22 @@ ul {
 li {
     padding: 1em;
     display: inline-block;
+    position: relative;
 }
 
-nav a:hover {
-    text-decoration: underline;
+li::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 2px;
+    background: linear-gradient(to right, #A23EA4);
+    bottom: -5px; 
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left; 
+    transition: transform 0.4s ease-out;
+}
+
+li:hover::before {
+    transform: scaleX(1);
 }
