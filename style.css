@@ -120,10 +120,6 @@ h1 {
     background-color: #822f84;
 }
 
-.btn:hover {
-    background-color: #822f84;
-}
-
 h2 {
     color: #000000;
     font-family: 'Gobold';
@@ -231,6 +227,25 @@ h3 {
     padding: 1.5em;
 }
 
-tag {
-    
+.mes-competences {
+    width: 80%;
+    margin: 0 auto 100px auto;
+}
+
+.tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #A23EA4;
+    color: #ffffff;
+    margin: 5px;
+    border-radius: 25px;
+    font-family: 'KgPerfectPenmanship';
+    padding: 8px 20px;
+    font-size: 32px;
+    margin-left: 1.5em;
 }
