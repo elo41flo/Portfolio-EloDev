@@ -169,3 +169,68 @@ p {
     font-size: 24px;
 }
 
+.card-project {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 100%;
+}
+
+.projet-item {
+    width: 1325px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.projets {
+    text-align: left;
+    width: 100%;
+    margin: 5px 0;
+    font-family: 'KgPerfectPenmanship';
+    font-size: 24px;
+}
+
+.cafthe {
+    width: 1325px;
+    height: 618px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.app-sante-mentale {
+    width: 1325px;
+    height: 618px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.cuisto-color {
+    width: 1325px;
+    height: 618px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+h3 {
+    color: #000000;
+    font-family: 'KgPerfectPenmanship';
+    font-size: 32px;
+    text-align: left;
+    padding: 1.5em;
+}
+
+tag {
+    
+}
